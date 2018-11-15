@@ -1,11 +1,11 @@
-///window.alert("Hello world!");
-///alert("Hello world!");
+window.alert("Hello world!");
+alert("Hello world!");
 
-///var myName = "Kliewer";
+var myName = "Kliewer";
 
-    ///alert('Hello, ' + myName + '!'); //ES5
+    alert('Hello, ' + myName + '!'); //ES5
 
-    ///alert(`Hello, ${myName}!`); //ES6
+    alert(`Hello, ${myName}!`); //ES6
 
 // const str1 = 'you are my brother Anika';
 // const str2 = new String(str1);
@@ -95,28 +95,21 @@
  if their provide no value alert tthat you need a vaid name
  */
 
-
-// const userName = prompt('What is your name?');
-// If(userName);{
-//   alert(userName);
-// } else {
-//   alert('Invalid name');
-// }
-
+// ask if user is over 18
 
 
 
 Const userAge =+ promp('what is your age?');
 if (userAge >= 18 && if(UserAge <= 80) {
 }
-const likesStarWars = confirm('do you like Star wars?');
+const under18 = confirm('Sorry, you are not old enough');
 
-if(likesStarWars) {
+if(over) {
   alert('May the force be with you!');
 }
 else if (userAge > 80 ){
   const likesPrunes = confirm ('do you like Prunes?')
-  likesPrunes ? alert('Gross');alert('I guess you are alright') 
+  likesPrunes ? alert('Gross');alert('I guess you are alright')
 
 }else {
 alert('You are not old enought')
