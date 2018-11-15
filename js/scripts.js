@@ -12,4 +12,13 @@
 //
 // console.console.log(geekwise.length); // few sec ago
 //
-//  //
+//  //s
+var favoriteMovie = ['Star Wars VI', '1983'];
+   var secondFavorite = ['Return of the King', '2003'];
+   var thirdFavorite = ['Equilibrium', '2002'];
+   var myFavoriteMovies = [];
+   myFavoriteMovies.push(favoriteMovie, secondFavorite, thirdFavorite);
+   //Result:
+   var movieYears = [];
+movieYears.push(myFavoriteMovies[0][1], myFavoriteMovies[1][1],myFavoriteMovies[2][1]);
+alert(movieYears);
